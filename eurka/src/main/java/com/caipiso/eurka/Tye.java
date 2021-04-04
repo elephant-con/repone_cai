@@ -6,9 +6,8 @@ public class Tye {
        int[] nums1 ={1,2,3,6,7,9,0,0,0};int[] nums2 ={2,5,6};
         merge(nums1,6,nums2,3);
     }
-
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        int p1 = m - 1, p2 = n - 1;
+        int p1 = m - 1, p2 = n - 3 ;
         int tail = m + n - 1;
         int cur;
         while (p1 >= 0 || p2 >= 0) {
